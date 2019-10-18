@@ -1,0 +1,8 @@
+.body{
+  background-color: azure;
+  min-height: 100vh;
+}
+
+.row{
+  margin: 20px 0 20px 0;
+}

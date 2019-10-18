@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HASH - Entrada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="body">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Entre em sua conta</h1>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <form action="https://cadlivros.000webhostapp.com/exHash1/login.php" method="POST">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Nome:</label>
+                            <input type="text" class="form-control" id="loginNome" name="nome">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Senha:</label>
+                            <input type="text" class="form-control" id="loginSenha" name="senha">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <a href="index.html"><button class="btn btn-block btn-danger" id="btnVoltar" type="reset">Voltar</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <button class="btn btn-block btn-success" id="btnEntrar" type="submit">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/acao.js"></script>
+
+</html>
